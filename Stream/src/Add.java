@@ -1,6 +1,6 @@
 import java.util.stream.LongStream;
 
-public class Add {
+public class Add {//멀티 스레딩에서의 병렬 연산을 통해 동기화 되지 않은 공유자원에 접근
     public static long num;
 
     private static void add(long l) {
@@ -18,7 +18,7 @@ public class Add {
         st = System.currentTimeMillis();
         num = 0;
         for (int i = 0; i < range; i++) {
-            num += i;
+            add(i);
         }
         System.out.println(System.currentTimeMillis() - st + " " + num);
 
@@ -26,8 +26,5 @@ public class Add {
         num = 0;
         LongStream.range(0, range).parallel().forEach(Add::add);
         System.out.println(System.currentTimeMillis() - st + " " + num);
-
     }
-
-
 }
