@@ -6,6 +6,7 @@ public class Main {
         FutureTask<String> task = new FutureTask<>(
                 new Callable<String>() {
                     public String call() throws Exception {
+                        TimeUnit.SECONDS.sleep(3);
                         System.out.println(Thread.currentThread());
                         return "This is return message";
                     }
@@ -14,6 +15,11 @@ public class Main {
                 new Runnable() {
                     @Override
                     public void run() {
+                        try {
+                            TimeUnit.SECONDS.sleep(3);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
                         System.out.println(Thread.currentThread());
                     }
                 }, "This is return message");
@@ -26,12 +32,6 @@ public class Main {
         } catch (TimeoutException e) {
             System.out.println("time out!");
         }
-        try {
-            String result2l = task.get(5 /* TIMEOUT */, TimeUnit.SECONDS);
-        } catch (TimeoutException e) {
-            System.out.println("time out!");
-        }
-
         System.out.println(task2.get());
     }
 }
