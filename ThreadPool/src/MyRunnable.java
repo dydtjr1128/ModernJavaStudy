@@ -22,6 +22,6 @@ public class MyRunnable implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("hello" + id + " " + Thread.currentThread() + Thread.activeCount() + " " + (System.currentTimeMillis() - st));
+        System.out.println("Thread id : " + id + " " + Thread.currentThread() + Thread.activeCount() + " " + (System.currentTimeMillis() - st));
     }
 }

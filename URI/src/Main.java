@@ -25,6 +25,7 @@ public class Main {
         ExecutorService service = Executors.newFixedThreadPool(5);
         service.submit(() -> {
             System.out.println("hello");
+            return 10;
         });
         System.out.println(service.toString());
         TimeUnit.SECONDS.sleep(1);

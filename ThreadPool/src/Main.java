@@ -9,10 +9,10 @@ public class Main {
 
         System.out.println("===Executors.newFixedThreadPool===");
         ExecutorService executorService = Executors.newFixedThreadPool(2);
-        executorService.shutdown();
+        //executorService.shutdown();
+        MyRunnable runnable = new MyRunnable(1);
         for (int i = 0; i < threadCount; i++) {
-            executorService.execute(new MyRunnable(i));
-            System.out.println("tt");
+            executorService.execute(runnable);
         }
         while (true){
             TimeUnit.SECONDS.sleep(1500);
