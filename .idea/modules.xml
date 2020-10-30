@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Closeable/Closeable.iml" filepath="$PROJECT_DIR$/Closeable/Closeable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommandLine/CommandLine.iml" filepath="$PROJECT_DIR$/CommandLine/CommandLine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConcurrentHashMap/ConcurrentHashMap.iml" filepath="$PROJECT_DIR$/ConcurrentHashMap/ConcurrentHashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConcurrentLinkedQueue vs LinkedBlockingQueue/ConcurrentLinkedQueue vs LinkedBlockingQueue.iml" filepath="$PROJECT_DIR$/ConcurrentLinkedQueue vs LinkedBlockingQueue/ConcurrentLinkedQueue vs LinkedBlockingQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FutureTask/FutureTask.iml" filepath="$PROJECT_DIR$/FutureTask/FutureTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java11varExample/Java11varExample.iml" filepath="$PROJECT_DIR$/Java11varExample/Java11varExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListUnion/ListUnion.iml" filepath="$PROJECT_DIR$/ListUnion/ListUnion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ModernJavaStudy.iml" filepath="$PROJECT_DIR$/.idea/ModernJavaStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParallelStream/ParallelStream.iml" filepath="$PROJECT_DIR$/ParallelStream/ParallelStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSL/SSL.iml" filepath="$PROJECT_DIR$/SSL/SSL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Socket/Socket.iml" filepath="$PROJECT_DIR$/Socket/Socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream/Stream.iml" filepath="$PROJECT_DIR$/Stream/Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadFactory/ThreadFactory.iml" filepath="$PROJECT_DIR$/ThreadFactory/ThreadFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadLocal/ThreadLocal.iml" filepath="$PROJECT_DIR$/ThreadLocal/ThreadLocal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadPool/ThreadPool.iml" filepath="$PROJECT_DIR$/ThreadPool/ThreadPool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/URI/URI.iml" filepath="$PROJECT_DIR$/URI/URI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volatile/Volatile.iml" filepath="$PROJECT_DIR$/Volatile/Volatile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file-watcher/file-watcher.iml" filepath="$PROJECT_DIR$/file-watcher/file-watcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rest/rest.iml" filepath="$PROJECT_DIR$/Rest/rest.iml" />
+    </modules>
+  </component>
+</project>
