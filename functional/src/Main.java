@@ -1,6 +1,5 @@
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 import java.util.concurrent.Callable;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
@@ -8,6 +7,10 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 
 public class Main {
+    public static String example(Integer a) {
+        return "melon" + a;
+    }
+
     public static void main(String[] args) throws Exception {
         // 0 in 0 out
         Runnable runnable = () -> System.out.println("runnable");
@@ -49,9 +52,11 @@ public class Main {
         hashMap.put(1, (i) -> "apple" + i);
         hashMap.put(2, (i) -> "grape" + i);
         hashMap.put(3, (i) -> "strawberry" + i);
+        hashMap.put(4, Main::example);
 
         System.out.println(hashMap.get(1).apply(15));
         System.out.println(hashMap.get(2).apply(15));
         System.out.println(hashMap.get(3).apply(15));
+        System.out.println(hashMap.get(4).apply(15));
     }
 }
