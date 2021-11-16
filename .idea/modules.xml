@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/URI/URI.iml" filepath="$PROJECT_DIR$/URI/URI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Volatile/Volatile.iml" filepath="$PROJECT_DIR$/Volatile/Volatile.iml" />
       <module fileurl="file://$PROJECT_DIR$/file-watcher/file-watcher.iml" filepath="$PROJECT_DIR$/file-watcher/file-watcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/functional/functional.iml" filepath="$PROJECT_DIR$/functional/functional.iml" />
       <module fileurl="file://$PROJECT_DIR$/Rest/rest.iml" filepath="$PROJECT_DIR$/Rest/rest.iml" />
     </modules>
   </component>
